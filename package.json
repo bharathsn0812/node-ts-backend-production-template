@@ -5,6 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "dist": "npx tsc",
+    "build": "npm run dist",
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
     "prepare": "husky"
@@ -13,6 +14,8 @@
   "author": "bharathsn0812@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@types/node": "^22.10.2",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.11",
