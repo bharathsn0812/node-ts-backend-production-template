@@ -1,5 +1,6 @@
-const str: string = "this is app.ts"
+const str = "this is app.ts"
 
 module.exports = {
     str
 }
+
